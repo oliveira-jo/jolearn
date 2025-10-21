@@ -17,3 +17,5 @@ INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('Bootcamp Algular','
 
 INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2025-11-11T03:00:00Z', TIMESTAMP WITH TIME ZONE '2026-11-11T03:00:00Z', 1);
 INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('2.0', TIMESTAMP WITH TIME ZONE '2025-12-12T03:00:00Z', TIMESTAMP WITH TIME ZONE '2026-12-12T03:00:00Z',  1);
+
+INSERT INTO tb_notification (text, moment, read, route,  user_id) VALUES ('Test with Notification', NOW(), false, 'testroutestring', 1);
