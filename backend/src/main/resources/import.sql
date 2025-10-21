@@ -12,3 +12,5 @@ INSERT INTO tb_user_role (user_id, role_id) VALUES (2, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 1);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 3);
+
+INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('Bootcamp Algular','https://cdn.awsli.com.br/1225/1225697/produto/47028827/caneca-angular-js-color-vermelha-9f8be875.jpg','https://upload.wikimedia.org/wikipedia/commons/2/2c/Angular_icon.svg')
