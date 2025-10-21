@@ -27,3 +27,6 @@ INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) 
 INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 1', 'Capitulo de introdução', 1, 'https://cdn.awsli.com.br/1225/1225697/produto/47028827/caneca-angular-js-color-vermelha-9f8be875.jpg', 1 , null);
 INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 2', 'Conceitos', 2, 'https://cdn.awsli.com.br/1225/1225697/produto/47028827/caneca-angular-js-color-vermelha-9f8be875.jpg', 1 , 1);
 INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 3', 'Conceitos Continuaçao', 3, 'https://cdn.awsli.com.br/1225/1225697/produto/47028827/caneca-angular-js-color-vermelha-9f8be875.jpg', 1 , 2);
+
+INSERT INTO tb_enrollment (user_id, offer_id, enroll_Moment, refund_Moment, available, only_Update) VALUES (1, 1, now(), null, true, false);
+INSERT INTO tb_enrollment (user_id, offer_id, enroll_Moment, refund_Moment, available, only_Update) VALUES (2, 1, now(), null, true, false);
