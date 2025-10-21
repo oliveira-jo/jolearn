@@ -19,3 +19,7 @@ INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0
 INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('2.0', TIMESTAMP WITH TIME ZONE '2025-12-12T03:00:00Z', TIMESTAMP WITH TIME ZONE '2026-12-12T03:00:00Z',  1);
 
 INSERT INTO tb_notification (text, moment, read, route,  user_id) VALUES ('Test with Notification', NOW(), false, 'testroutestring', 1);
+
+INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Trilha Básica Angular', 'Trilha principal do curso', 1, 'https://cdn.awsli.com.br/1225/1225697/produto/47028827/caneca-angular-js-color-vermelha-9f8be875.jpg', 1, 1);
+INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Forum', 'Tire suas dúvidas', 2, 'https://cdn.awsli.com.br/1225/1225697/produto/47028827/caneca-angular-js-color-vermelha-9f8be875.jpg', 2, 1);
+INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Lives Bonus', 'Lives exclusivas para a turma', 3, 'https://cdn.awsli.com.br/1225/1225697/produto/47028827/caneca-angular-js-color-vermelha-9f8be875.jpg', 0, 1);
