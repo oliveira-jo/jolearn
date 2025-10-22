@@ -49,3 +49,14 @@ INSERT INTO tb_lessons_done (lesson_Id, user_Id, offer_id) VALUES (1, 1, 1);
 INSERT INTO tb_lessons_done (lesson_Id, user_Id, offer_id) VALUES (2, 1, 1);
 
 INSERT INTO tb_deliver (uri, moment, status, feedback, correct_Count, lesson_id,  user_id, offer_id) VALUES ('https://github.com/oliveira-jo/jolearn', NOW(), 0, null, null, 4, 1, 1);
+
+
+INSERT INTO tb_topic (title, body, moment, author_id, offer_id, lesson_id ) VALUES ('Titulo tópico 1', 'body 1', NOW(), 1, 1, 1);
+INSERT INTO tb_topic (title, body, moment, author_id, offer_id, lesson_id ) VALUES ('Titulo tópico 2', 'body 2', NOW(), 2, 1, 1);
+INSERT INTO tb_topic (title, body, moment, author_id, offer_id, lesson_id ) VALUES ('Titulo tópico 3', 'body 3', NOW(), 2, 1, 1);
+INSERT INTO tb_topic (title, body, moment, author_id, offer_id, lesson_id ) VALUES ('Titulo tópico 4', 'body 4', NOW(), 1, 1, 2);
+INSERT INTO tb_topic (title, body, moment, author_id, offer_id, lesson_id ) VALUES ('Titulo tópico 5', 'body 5', NOW(), 1, 1, 2);
+INSERT INTO tb_topic (title, body, moment, author_id, offer_id, lesson_id ) VALUES ('Titulo tópico 6', 'body 6', NOW(), 2, 1, 3);
+
+INSERT INTO tb_topik_likes (topic_id, user_id) VALUES (1,2);
+INSERT INTO tb_topik_likes (topic_id, user_id) VALUES (2,1);
