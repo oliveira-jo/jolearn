@@ -89,6 +89,10 @@ public abstract class Lesson {
     return enrollmentsDone;
   }
 
+  public List<Deliver> getDeliveries() {
+    return deliveries;
+  }
+
   @Override
   public int hashCode() {
     final int prime = 31;
