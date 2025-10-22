@@ -60,3 +60,8 @@ INSERT INTO tb_topic (title, body, moment, author_id, offer_id, lesson_id ) VALU
 
 INSERT INTO tb_topik_likes (topic_id, user_id) VALUES (1,2);
 INSERT INTO tb_topik_likes (topic_id, user_id) VALUES (2,1);
+
+INSERT INTO tb_reply (body, moment, topic_id, author_id) VALUES ('Tente reiniciar o sistema...', NOW(), 1, 2);
+INSERT INTO tb_reply (body, moment, topic_id, author_id) VALUES ('Deu certo.', NOW(), 1, 1);
+
+INSERT INTO tb_reply_likes (reply_id, user_id) VALUES (1,1);
