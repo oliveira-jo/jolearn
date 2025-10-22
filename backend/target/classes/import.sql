@@ -30,3 +30,18 @@ INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prer
 
 INSERT INTO tb_enrollment (user_id, offer_id, enroll_Moment, refund_Moment, available, only_Update) VALUES (1, 1, now(), null, true, false);
 INSERT INTO tb_enrollment (user_id, offer_id, enroll_Moment, refund_Moment, available, only_Update) VALUES (2, 1, now(), null, true, false);
+
+INSERT INTO tb_lesson (title, position, section_id) VALUES ('Aula 1', 1, 1);
+INSERT INTO tb_content (id, text_Content, video_Uri) VALUES (1, 'Material de apoio ABC', 'https://www.youtube.com/watch?v=sqbqoR-lMf8');
+
+INSERT INTO tb_lesson (title, position, section_id) VALUES ('Aula 2', 2, 1);
+INSERT INTO tb_content (id, text_Content, video_Uri) VALUES (2, '', 'https://www.youtube.com/watch?v=sqbqoR-lMf8');
+
+INSERT INTO tb_lesson (title, position, section_id) VALUES ('Aula 3', 3, 1);
+INSERT INTO tb_content (id, text_Content, video_Uri) VALUES (3, '', 'https://www.youtube.com/watch?v=sqbqoR-lMf8');
+
+INSERT INTO tb_lesson (title, position, section_id) VALUES ('Tarefa cap 1', 4, 1);
+INSERT INTO tb_task (id, description, question_Count, approval_Count, weight, due_Date) VALUES (4, 'Trabalho de prog', 10, 8, 1.0, TIMESTAMP WITH TIME ZONE '2025-12-25T03:00:00Z' );
+
+INSERT INTO tb_lessons_done (lesson_Id, user_Id, offer_id) VALUES (1, 1, 1);
+INSERT INTO tb_lessons_done (lesson_Id, user_Id, offer_id) VALUES (2, 1, 1);
